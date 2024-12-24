@@ -1,0 +1,3278 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-24T21:05:28.104Z",
+        "line": 17,
+        "name": "Math that should work",
+        "description": "",
+        "id": "cucumber-data-injection;math-that-should-work;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "We start with the number 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 25
+                }
+              ],
+              "location": "com.revature.steps.DataInjection.we_start_with_the_number(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "We have the number 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.revature.steps.DataInjection.we_have_the_number(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "We add these numbers together",
+            "match": {
+              "location": "com.revature.steps.DataInjection.we_add_these_numbers_together()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "We should get the number 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 25
+                }
+              ],
+              "location": "com.revature.steps.DataInjection.we_should_get_the_number(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:28.172Z",
+        "line": 18,
+        "name": "Math that should work",
+        "description": "",
+        "id": "cucumber-data-injection;math-that-should-work;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "We start with the number -1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-1",
+                  "offset": 25
+                }
+              ],
+              "location": "com.revature.steps.DataInjection.we_start_with_the_number(java.lang.Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "We have the number 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 19
+                }
+              ],
+              "location": "com.revature.steps.DataInjection.we_have_the_number(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "We add these numbers together",
+            "match": {
+              "location": "com.revature.steps.DataInjection.we_add_these_numbers_together()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "We should get the number 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "com.revature.steps.DataInjection.we_should_get_the_number(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber data injection",
+    "description": "",
+    "id": "cucumber-data-injection",
+    "keyword": "Feature",
+    "uri": "classpath:features/DataInjection.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-24T21:05:28.181Z",
+        "line": 3,
+        "name": "Go to English home page of Wikipedia",
+        "description": "",
+        "id": "reach-english-home-page-of-wikipedia;go-to-english-home-page-of-wikipedia",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 613003700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user is on the on the Wikipedia home page",
+            "match": {
+              "location": "com.revature.steps.EnglishSteps.the_user_is_on_the_on_the_Wikipedia_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 518996900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks the English link",
+            "match": {
+              "location": "com.revature.steps.EnglishSteps.the_user_clicks_the_English_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4002000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should be sent to the English home page",
+            "match": {
+              "location": "com.revature.steps.EnglishSteps.the_user_should_be_sent_to_the_English_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reach English Home page of Wikipedia",
+    "description": "",
+    "id": "reach-english-home-page-of-wikipedia",
+    "keyword": "Feature",
+    "uri": "classpath:features/NavigateToWikiHome.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-24T21:05:29.327Z",
+        "line": 15,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 53998200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52001900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40997800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13002800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Harr-ow_2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harr-ow_2017\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123004800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Account Creation Success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Creation Success\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:29.625Z",
+        "line": 16,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34995800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30999700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15996100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Limbo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Limbo\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12003000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Harr-ow_2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harr-ow_2017\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [e1243a0c-926a-41b9-afd7-1581091c99a1, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:12580, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28940, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:12580/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: e1243a0c-926a-41b9-afd7-1581091c99a1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(UserStory1Test.java:53)\r\n\tat ✽.The user should get a browser alert saying \"Invalid username alert\"(classpath:features/UserStory1.feature:11)\r\n",
+              "duration": 229849300,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid username alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:29.967Z",
+        "line": 17,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19999800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34998500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Mesa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mesa\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12002700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Harr-ow_2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harr-ow_2017\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50998300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid username alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.107Z",
+        "line": 18,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21996600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32003400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23996400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Trinity_andExcalibur_best_friends\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Trinity_andExcalibur_best_friends\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12999400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Harr-ow_2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harr-ow_2017\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid username alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.259Z",
+        "line": 19,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18998600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29001300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16999800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"2014Hydriod\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2014Hydriod\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11999900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Harr-ow_2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harr-ow_2017\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54997800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid username alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.398Z",
+        "line": 20,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18997500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13999900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Limbo!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Limbo!!\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14010200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Harr-ow_2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harr-ow_2017\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51989100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid username alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.532Z",
+        "line": 21,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20003900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25994800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17002700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"L0ki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"L0ki\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52003100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.661Z",
+        "line": 22,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20002200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33998800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15997200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"LimboIsTheBestWarframeForever\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LimboIsTheBestWarframeForever\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55001700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.807Z",
+        "line": 23,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20997000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29001200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17996400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10999600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"3quinox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3quinox\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56002800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:30.947Z",
+        "line": 24,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20999600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39002100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14997700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11998100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Atlas1sTher0ck!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Atlas1sTher0ck!!\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48002300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.085Z",
+        "line": 25,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19999100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28000900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19000700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8999400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"atlas2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"atlas2019\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46001300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.210Z",
+        "line": 26,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;13",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15997000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25999400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16001200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10999600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"ATLAS2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ATLAS2019\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52001200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.334Z",
+        "line": 27,
+        "name": "Testing for valid New Credentials",
+        "description": "",
+        "id": "user-story-1;testing-for-valid-new-credentials;;14",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24003400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user clicks the register link",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_clicks_the_register_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13996400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user provides a valid \"Excal-ibur_2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excal-ibur_2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a_valid(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9999600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user provides a \"Ash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ash\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_provides_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46999700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should get a browser alert saying \"Invalid password alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid password alert\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Story 1",
+    "description": "  As a new user, a person should be able to open an account to\n  save celestial findings",
+    "id": "user-story-1",
+    "keyword": "Feature",
+    "uri": "classpath:features/UserStory1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17999400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17004100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks on the login link",
+            "match": {
+              "location": "com.revature.steps.UserStory2Test.the_user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.453Z",
+        "line": 16,
+        "name": "Testing for current Valid Credentials",
+        "description": "",
+        "id": "user-story-2;testing-for-current-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13997100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user provides the username of \"Limbo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Limbo\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_username_of(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14001500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user provides the password of \"Cataclysm2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cataclysm2012\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_password_of(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35003100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should see \"The user is directed to the Home page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The user is directed to the Home page\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17999600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks on the login link",
+            "match": {
+              "location": "com.revature.steps.UserStory2Test.the_user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.556Z",
+        "line": 17,
+        "name": "Testing for current Valid Credentials",
+        "description": "",
+        "id": "user-story-2;testing-for-current-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14001200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user provides the username of \"Limbo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Limbo\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_username_of(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9999200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user provides the password of \"BigRocks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BigRocks\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_password_of(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49002900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should see \"Browser Alert: Invalid Credentials alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Invalid Credentials alert\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20001600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17000900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks on the login link",
+            "match": {
+              "location": "com.revature.steps.UserStory2Test.the_user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.675Z",
+        "line": 18,
+        "name": "Testing for current Valid Credentials",
+        "description": "",
+        "id": "user-story-2;testing-for-current-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14001200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user provides the username of \"Atlas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Atlas\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_username_of(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user provides the password of \"Cataclysm2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cataclysm2012\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_password_of(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59996800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should see \"Browser Alert: Invalid Credentials alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Invalid Credentials alert\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19003300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the login page",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22998000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks on the login link",
+            "match": {
+              "location": "com.revature.steps.UserStory2Test.the_user_clicks_on_the_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.800Z",
+        "line": 19,
+        "name": "Testing for current Valid Credentials",
+        "description": "",
+        "id": "user-story-2;testing-for-current-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13997700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user provides the username of \"Atlas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Atlas\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_username_of(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10001700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user provides the password of \"BigRocks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BigRocks\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_provides_the_password_of(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the credentials",
+            "match": {
+              "location": "com.revature.steps.UserStory1Test.the_user_submits_the_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53998300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should see \"Browser Alert: Invalid Credentials alert\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Invalid Credentials alert\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory2Test.the_user_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Story 2",
+    "description": "  Users should be able to securely access their account",
+    "id": "user-story-2",
+    "keyword": "Feature",
+    "uri": "classpath:features/UserStory2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 66998000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256000200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:31.925Z",
+        "line": 16,
+        "name": "Testing restrictions on types of images the user can upload",
+        "description": "",
+        "id": "user-story-4;testing-restrictions-on-types-of-images-the-user-can-upload;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13999100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters a \"Equinox\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Equinox\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6999300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits a photo file of \".jpg\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\".jpg\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_a_photo_file_of_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321004100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user gets a \"Accepted data\" browser alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accepted data\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87000700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233027100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:32.594Z",
+        "line": 17,
+        "name": "Testing restrictions on types of images the user can upload",
+        "description": "",
+        "id": "user-story-4;testing-restrictions-on-types-of-images-the-user-can-upload;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13993900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters a \"Chroma\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chroma\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7002500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits a photo file of \".png\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\".png\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_a_photo_file_of_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(UserStory4Test.java:126)\r\n\tat ✽.The user gets a \"Accepted data\" browser alert(classpath:features/UserStory4.feature:12)\r\n",
+              "duration": 426909900,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The user gets a \"Accepted data\" browser alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accepted data\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84998800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239002200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:33.367Z",
+        "line": 18,
+        "name": "Testing restrictions on types of images the user can upload",
+        "description": "",
+        "id": "user-story-4;testing-restrictions-on-types-of-images-the-user-can-upload;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9999800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters a \"Da-gath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Da-gath\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user submits a photo file of \".webp\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\".webp\"",
+                  "offset": 33
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_a_photo_file_of_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [e1243a0c-926a-41b9-afd7-1581091c99a1, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:12580, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28940, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:12580/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: e1243a0c-926a-41b9-afd7-1581091c99a1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(UserStory4Test.java:130)\r\n\tat ✽.The user gets a \"Browser Alert: Invalid photo type\" browser alert(classpath:features/UserStory4.feature:12)\r\n",
+              "duration": 221025300,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The user gets a \"Browser Alert: Invalid photo type\" browser alert",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Invalid photo type\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 90999400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244998700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:33.939Z",
+        "line": 27,
+        "name": "Testing to make sure the requirements for unique names with certain restrictions",
+        "description": "",
+        "id": "user-story-4;testing-to-make-sure-the-requirements-for-unique-names-with-certain-restrictions;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10001600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters a \"Lavos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lavos\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316000100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user gets a \"Data added\" and returned to the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Data added\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_and_returned_to_the_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 77998800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238001800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:34.604Z",
+        "line": 28,
+        "name": "Testing to make sure the requirements for unique names with certain restrictions",
+        "description": "",
+        "id": "user-story-4;testing-to-make-sure-the-requirements-for-unique-names-with-certain-restrictions;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10999600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters a \"Da-gath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Da-gath\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53001100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user gets a \"Browser Alert: Invalid Planet Name\" and returned to the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Invalid Planet Name\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_and_returned_to_the_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 77005100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:34.986Z",
+        "line": 29,
+        "name": "Testing to make sure the requirements for unique names with certain restrictions",
+        "description": "",
+        "id": "user-story-4;testing-to-make-sure-the-requirements-for-unique-names-with-certain-restrictions;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters a \"Garuda!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Garuda!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42004400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user gets a \"Browser Alert: Invalid Planet Name\" and returned to the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Invalid Planet Name\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_and_returned_to_the_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84004900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236996400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:35.370Z",
+        "line": 30,
+        "name": "Testing to make sure the requirements for unique names with certain restrictions",
+        "description": "",
+        "id": "user-story-4;testing-to-make-sure-the-requirements-for-unique-names-with-certain-restrictions;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15001300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user enters a \"WhySoManyOptionsJustChooseOne\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WhySoManyOptionsJustChooseOne\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_a(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221998500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user gets a \"Browser Alert: Too many characters\" and returned to the home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browser Alert: Too many characters\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_gets_a_and_returned_to_the_home_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 82999800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243998700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:35.932Z",
+        "line": 40,
+        "name": "Testing valid moon names and orbits",
+        "description": "",
+        "id": "user-story-4;testing-valid-moon-names-and-orbits;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 247003100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user enters \"Limbo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Limbo\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9999200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user enters the id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_the_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417998700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user should get \"Added finding\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Added finding\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_should_get(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241846300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:36.937Z",
+        "line": 41,
+        "name": "Testing valid moon names and orbits",
+        "description": "",
+        "id": "user-story-4;testing-valid-moon-names-and-orbits;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 257472000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user enters \"Excalibur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Excalibur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9998900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user enters the id \"99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"99\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_the_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90999700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user should get \"Invalid Planet id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Planet id\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_should_get(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 86999000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the Home page",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 239946400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks the add finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_clicks_the_add_finding_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:37.618Z",
+        "line": 42,
+        "name": "Testing valid moon names and orbits",
+        "description": "",
+        "id": "user-story-4;testing-valid-moon-names-and-orbits;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 251560000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user enters \"1158\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1158\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7997200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user enters the id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_enters_the_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [e1243a0c-926a-41b9-afd7-1581091c99a1, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:12580, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28940, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:12580/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: e1243a0c-926a-41b9-afd7-1581091c99a1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory4Test.the_user_should_get(UserStory4Test.java:94)\r\n\tat ✽.The user should get \"Invalid name\"(classpath:features/UserStory4.feature:36)\r\n",
+              "duration": 216138000,
+              "status": "failed"
+            },
+            "line": 36,
+            "name": "The user should get \"Invalid name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid name\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.revature.steps.UserStory4Test.the_user_should_get(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Story 4",
+    "description": "  Users should be able to add new findings",
+    "id": "user-story-4",
+    "keyword": "Feature",
+    "uri": "classpath:features/UserStory4.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-24T21:05:38.428Z",
+        "line": 12,
+        "name": "Testing the user\u0027s ability to only remove something they have control over",
+        "description": "",
+        "id": "user-story-5;testing-the-user-s-ability-to-only-remove-something-they-have-control-over;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks the remove finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory5.the_user_clicks_the_remove_finding_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 237339400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user gives a \"Da-gath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Da-gath\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.steps.UserStory5.the_user_gives_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348206900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user gets the following \"Body Deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Body Deleted\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.steps.UserStory5.the_user_gets_the_following(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:39.016Z",
+        "line": 13,
+        "name": "Testing the user\u0027s ability to only remove something they have control over",
+        "description": "",
+        "id": "user-story-5;testing-the-user-s-ability-to-only-remove-something-they-have-control-over;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks the remove finding link",
+            "match": {
+              "location": "com.revature.steps.UserStory5.the_user_clicks_the_remove_finding_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user gives a \"Lavos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lavos\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.revature.steps.UserStory5.the_user_gives_a(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user submits the data",
+            "match": {
+              "location": "com.revature.steps.UserStory4Test.the_user_submits_the_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user gets the following \"Invalid Body Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid Body Name\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.revature.steps.UserStory5.the_user_gets_the_following(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Story 5",
+    "description": "  Users should be able to remove their findings",
+    "id": "user-story-5",
+    "keyword": "Feature",
+    "uri": "classpath:features/UserStory5.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Some starting condition",
+            "match": {
+              "location": "com.revature.steps.IntroSteps.some_starting_condition()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:39.079Z",
+        "line": 11,
+        "name": "positive test of feature being tested",
+        "description": "",
+        "id": "thing-being-tested;positive-test-of-feature-being-tested",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Some positive action is taken",
+            "match": {
+              "location": "com.revature.steps.IntroSteps.some_positive_action_is_taken()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Some positive outcome should be achieved",
+            "match": {
+              "location": "com.revature.steps.IntroSteps.some_positive_outcome_should_be_achieved()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Some starting condition",
+            "match": {
+              "location": "com.revature.steps.IntroSteps.some_starting_condition()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-24T21:05:39.082Z",
+        "line": 15,
+        "name": "negative test of feature being tested",
+        "description": "",
+        "id": "thing-being-tested;negative-test-of-feature-being-tested",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Some negative action is taken",
+            "match": {
+              "location": "com.revature.steps.IntroNegativeSteps.some_negative_action_is_taken()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Some negative condition should be stopped",
+            "match": {
+              "location": "com.revature.steps.IntroNegativeSteps.some_negative_condition_should_be_stopped()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "thing being tested",
+    "description": "  Can provided extended descriptions after Feature is declared. This is not needed",
+    "id": "thing-being-tested",
+    "keyword": "Feature",
+    "uri": "classpath:features/intro.feature",
+    "tags": []
+  }
+]
