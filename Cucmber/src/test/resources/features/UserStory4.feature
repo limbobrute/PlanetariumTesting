@@ -24,7 +24,7 @@ Feature: User Story 4
 
  Examples:
    |Planet name                  |Result                                        |
-   |Lavos                        |Data added                                    |
+   |Cali-ban2020                 |Data added                                    |
    |Da-gath                      |Browser Alert: Invalid Planet Name            |
    |Garuda!                      |Browser Alert: Invalid Planet Name            |
    |WhySoManyOptionsJustChooseOne|Browser Alert: Too many characters            |

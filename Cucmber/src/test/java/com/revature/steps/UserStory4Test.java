@@ -49,6 +49,7 @@ public class UserStory4Test
     //Planet unique steps
     @When("The user enters a {string}")
     public void the_user_enters_a(String string) {
+        TestRunner.insert.EnterPlanetName("");
         TestRunner.insert.EnterPlanetName(string);
         System.out.println("The planet name shall be " + string);
     }
@@ -146,7 +147,7 @@ public class UserStory4Test
                 for (int j = 0; j <= cols.size()-1; j++)
                 {
                     String cell = cols.get(j).getText();
-                    if(cell.equals("Lavos"))
+                    if(cell.equals("Cali-ban2020"))
                     {found = true; break;}
                 }
                 if(found)
