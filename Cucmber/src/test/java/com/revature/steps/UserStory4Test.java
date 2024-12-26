@@ -155,10 +155,11 @@ public class UserStory4Test
             }
             Assert.assertTrue(found);
         }
-        else if(string.equals("Browser Alert: Invalid Planet Name"))
+        else if(string.equals("Browser Alert: Invalid Planet Name") || string.equals("Browser Alert: Too many characters"))
         {
             Alert alert = TestRunner.driver.switchTo().alert();
-            Assert.assertEquals("Invalid planet name", alert.getText()); alert.accept();
+            Assert.assertEquals("Invalid planet name", alert.getText());
+            alert.accept();
         }
     }
 }

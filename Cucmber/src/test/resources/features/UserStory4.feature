@@ -23,11 +23,11 @@ Feature: User Story 4
    Then The user gets a "<Result>" and returned to the home page
 
  Examples:
-   |Planet name                  |Result                                        |
-   |Cali-ban2020                 |Data added                                    |
-   |Da-gath                      |Browser Alert: Invalid Planet Name            |
-   |Garuda!                      |Browser Alert: Invalid Planet Name            |
-   |WhySoManyOptionsJustChooseOne|Browser Alert: Too many characters            |
+   |Planet name                     |Result                                        |
+   |Cali-ban2020                    |Data added                                    |
+   |Da-gath                         |Browser Alert: Invalid Planet Name            |
+   |Garuda!                         |Browser Alert: Invalid Planet Name            |
+   |WhyAreSoManyOptionsJustChooseOne|Browser Alert: Too many characters            |
 
  Scenario Outline: Testing valid moon names and orbits
    When The user enters "<Moon name>"

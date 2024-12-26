@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2024-12-26T15:04:34.050Z",
+        "start_timestamp": "2024-12-26T15:15:02.501Z",
         "line": 17,
         "name": "Math that should work",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2999100,
+              "duration": 2000700,
               "status": "passed"
             },
             "line": 8,
@@ -31,6 +31,7 @@
           },
           {
             "result": {
+              "duration": 999300,
               "status": "passed"
             },
             "line": 9,
@@ -48,7 +49,6 @@
           },
           {
             "result": {
-              "duration": 999800,
               "status": "passed"
             },
             "line": 10,
@@ -60,7 +60,6 @@
           },
           {
             "result": {
-              "duration": 999800,
               "status": "passed"
             },
             "line": 11,
@@ -79,7 +78,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:34.113Z",
+        "start_timestamp": "2024-12-26T15:15:02.557Z",
         "line": 18,
         "name": "Math that should work",
         "description": "",
@@ -134,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 998800,
+              "duration": 1001300,
               "status": "passed"
             },
             "line": 11,
@@ -164,7 +163,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-12-26T15:04:34.122Z",
+        "start_timestamp": "2024-12-26T15:15:02.566Z",
         "line": 3,
         "name": "Go to English home page of Wikipedia",
         "description": "",
@@ -174,7 +173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 607001400,
+              "duration": 586997000,
               "status": "passed"
             },
             "line": 4,
@@ -186,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 694998900,
+              "duration": 571999300,
               "status": "passed"
             },
             "line": 5,
@@ -198,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 6999300,
+              "duration": 3998800,
               "status": "passed"
             },
             "line": 6,
@@ -222,7 +221,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2024-12-26T15:04:35.444Z",
+        "start_timestamp": "2024-12-26T15:15:03.738Z",
         "line": 15,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -232,7 +231,7 @@
         "steps": [
           {
             "result": {
-              "duration": 60999800,
+              "duration": 52003200,
               "status": "passed"
             },
             "line": 6,
@@ -244,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 55000100,
+              "duration": 53000000,
               "status": "passed"
             },
             "line": 7,
@@ -256,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 37000200,
+              "duration": 44999800,
               "status": "passed"
             },
             "line": 8,
@@ -274,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 13998000,
+              "duration": 16998000,
               "status": "passed"
             },
             "line": 9,
@@ -292,7 +291,7 @@
           },
           {
             "result": {
-              "duration": 1000700,
+              "duration": 1000500,
               "status": "passed"
             },
             "line": 10,
@@ -304,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 106003200,
+              "duration": 121998900,
               "status": "passed"
             },
             "line": 11,
@@ -323,7 +322,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:35.729Z",
+        "start_timestamp": "2024-12-26T15:15:04.039Z",
         "line": 16,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -333,7 +332,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25002500,
+              "duration": 26999300,
               "status": "passed"
             },
             "line": 6,
@@ -345,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 33000000,
+              "duration": 31996500,
               "status": "passed"
             },
             "line": 7,
@@ -357,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 15998800,
+              "duration": 15003300,
               "status": "passed"
             },
             "line": 8,
@@ -375,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 12000800,
+              "duration": 11998300,
               "status": "passed"
             },
             "line": 9,
@@ -404,8 +403,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [2e2187bd-e50a-4852-96ff-4c8d8e264027, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:30282, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24288, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30282/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 2e2187bd-e50a-4852-96ff-4c8d8e264027\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(UserStory1Test.java:53)\r\n\tat ✽.The user should get a browser alert saying \"Invalid username alert\"(classpath:features/UserStory1.feature:11)\r\n",
-              "duration": 228903800,
+              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [3e4e9542-b988-4d88-9792-9260490bd549, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:34273, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6104, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34273/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 3e4e9542-b988-4d88-9792-9260490bd549\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory1Test.the_user_should_get_a_browser_alert_saying(UserStory1Test.java:53)\r\n\tat ✽.The user should get a browser alert saying \"Invalid username alert\"(classpath:features/UserStory1.feature:11)\r\n",
+              "duration": 242900600,
               "status": "failed"
             },
             "line": 11,
@@ -424,7 +423,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.061Z",
+        "start_timestamp": "2024-12-26T15:15:04.384Z",
         "line": 17,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -434,7 +433,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18001000,
+              "duration": 19996900,
               "status": "passed"
             },
             "line": 6,
@@ -446,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 26996200,
+              "duration": 28002100,
               "status": "passed"
             },
             "line": 7,
@@ -458,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 15002900,
+              "duration": 13999200,
               "status": "passed"
             },
             "line": 8,
@@ -476,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 12998400,
+              "duration": 11998100,
               "status": "passed"
             },
             "line": 9,
@@ -505,7 +504,7 @@
           },
           {
             "result": {
-              "duration": 50999400,
+              "duration": 51007200,
               "status": "passed"
             },
             "line": 11,
@@ -524,7 +523,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.191Z",
+        "start_timestamp": "2024-12-26T15:15:04.516Z",
         "line": 18,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -534,7 +533,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17997500,
+              "duration": 22000100,
               "status": "passed"
             },
             "line": 6,
@@ -546,7 +545,7 @@
           },
           {
             "result": {
-              "duration": 26998700,
+              "duration": 33000400,
               "status": "passed"
             },
             "line": 7,
@@ -558,7 +557,7 @@
           },
           {
             "result": {
-              "duration": 19001800,
+              "duration": 20997100,
               "status": "passed"
             },
             "line": 8,
@@ -576,7 +575,7 @@
           },
           {
             "result": {
-              "duration": 9997300,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 9,
@@ -605,7 +604,7 @@
           },
           {
             "result": {
-              "duration": 50004900,
+              "duration": 53000600,
               "status": "passed"
             },
             "line": 11,
@@ -624,7 +623,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.324Z",
+        "start_timestamp": "2024-12-26T15:15:04.661Z",
         "line": 19,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -634,7 +633,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18006300,
+              "duration": 17998500,
               "status": "passed"
             },
             "line": 6,
@@ -646,7 +645,7 @@
           },
           {
             "result": {
-              "duration": 27995300,
+              "duration": 27000800,
               "status": "passed"
             },
             "line": 7,
@@ -658,7 +657,7 @@
           },
           {
             "result": {
-              "duration": 18999100,
+              "duration": 14997400,
               "status": "passed"
             },
             "line": 8,
@@ -676,7 +675,7 @@
           },
           {
             "result": {
-              "duration": 12001400,
+              "duration": 14003600,
               "status": "passed"
             },
             "line": 9,
@@ -705,7 +704,7 @@
           },
           {
             "result": {
-              "duration": 55998300,
+              "duration": 52026200,
               "status": "passed"
             },
             "line": 11,
@@ -724,7 +723,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.462Z",
+        "start_timestamp": "2024-12-26T15:15:04.794Z",
         "line": 20,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -734,7 +733,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18000100,
+              "duration": 17999300,
               "status": "passed"
             },
             "line": 6,
@@ -746,7 +745,7 @@
           },
           {
             "result": {
-              "duration": 30002500,
+              "duration": 24002300,
               "status": "passed"
             },
             "line": 7,
@@ -758,7 +757,7 @@
           },
           {
             "result": {
-              "duration": 13999100,
+              "duration": 15998500,
               "status": "passed"
             },
             "line": 8,
@@ -776,7 +775,7 @@
           },
           {
             "result": {
-              "duration": 12999100,
+              "duration": 10996300,
               "status": "passed"
             },
             "line": 9,
@@ -805,7 +804,7 @@
           },
           {
             "result": {
-              "duration": 51001200,
+              "duration": 50002400,
               "status": "passed"
             },
             "line": 11,
@@ -824,7 +823,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.593Z",
+        "start_timestamp": "2024-12-26T15:15:04.918Z",
         "line": 21,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -834,7 +833,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21001500,
+              "duration": 23001600,
               "status": "passed"
             },
             "line": 6,
@@ -846,7 +845,7 @@
           },
           {
             "result": {
-              "duration": 32998400,
+              "duration": 25000100,
               "status": "passed"
             },
             "line": 7,
@@ -858,7 +857,7 @@
           },
           {
             "result": {
-              "duration": 16001000,
+              "duration": 15999200,
               "status": "passed"
             },
             "line": 8,
@@ -876,7 +875,7 @@
           },
           {
             "result": {
-              "duration": 9000200,
+              "duration": 8995700,
               "status": "passed"
             },
             "line": 9,
@@ -905,7 +904,7 @@
           },
           {
             "result": {
-              "duration": 47999200,
+              "duration": 52001400,
               "status": "passed"
             },
             "line": 11,
@@ -924,7 +923,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.725Z",
+        "start_timestamp": "2024-12-26T15:15:05.049Z",
         "line": 22,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -934,7 +933,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20001900,
+              "duration": 19999900,
               "status": "passed"
             },
             "line": 6,
@@ -946,7 +945,7 @@
           },
           {
             "result": {
-              "duration": 27000700,
+              "duration": 30003100,
               "status": "passed"
             },
             "line": 7,
@@ -958,7 +957,7 @@
           },
           {
             "result": {
-              "duration": 14997800,
+              "duration": 16997000,
               "status": "passed"
             },
             "line": 8,
@@ -976,7 +975,7 @@
           },
           {
             "result": {
-              "duration": 16003200,
+              "duration": 15998100,
               "status": "passed"
             },
             "line": 9,
@@ -1005,7 +1004,7 @@
           },
           {
             "result": {
-              "duration": 49000400,
+              "duration": 50999700,
               "status": "passed"
             },
             "line": 11,
@@ -1024,7 +1023,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.857Z",
+        "start_timestamp": "2024-12-26T15:15:05.189Z",
         "line": 23,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -1034,7 +1033,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18997300,
+              "duration": 19001100,
               "status": "passed"
             },
             "line": 6,
@@ -1046,7 +1045,7 @@
           },
           {
             "result": {
-              "duration": 26997500,
+              "duration": 26998200,
               "status": "passed"
             },
             "line": 7,
@@ -1058,7 +1057,7 @@
           },
           {
             "result": {
-              "duration": 17000400,
+              "duration": 15000900,
               "status": "passed"
             },
             "line": 8,
@@ -1076,7 +1075,7 @@
           },
           {
             "result": {
-              "duration": 10998600,
+              "duration": 9999800,
               "status": "passed"
             },
             "line": 9,
@@ -1105,7 +1104,7 @@
           },
           {
             "result": {
-              "duration": 51000300,
+              "duration": 49998600,
               "status": "passed"
             },
             "line": 11,
@@ -1124,7 +1123,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:36.989Z",
+        "start_timestamp": "2024-12-26T15:15:05.314Z",
         "line": 24,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -1134,7 +1133,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18997900,
+              "duration": 14001000,
               "status": "passed"
             },
             "line": 6,
@@ -1146,7 +1145,7 @@
           },
           {
             "result": {
-              "duration": 24001300,
+              "duration": 25997100,
               "status": "passed"
             },
             "line": 7,
@@ -1158,7 +1157,7 @@
           },
           {
             "result": {
-              "duration": 13997800,
+              "duration": 15002600,
               "status": "passed"
             },
             "line": 8,
@@ -1176,7 +1175,7 @@
           },
           {
             "result": {
-              "duration": 12000900,
+              "duration": 10997800,
               "status": "passed"
             },
             "line": 9,
@@ -1194,6 +1193,7 @@
           },
           {
             "result": {
+              "duration": 1000100,
               "status": "passed"
             },
             "line": 10,
@@ -1205,7 +1205,7 @@
           },
           {
             "result": {
-              "duration": 45999700,
+              "duration": 46000000,
               "status": "passed"
             },
             "line": 11,
@@ -1224,7 +1224,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.108Z",
+        "start_timestamp": "2024-12-26T15:15:05.432Z",
         "line": 25,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -1234,7 +1234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18999700,
+              "duration": 16003200,
               "status": "passed"
             },
             "line": 6,
@@ -1246,7 +1246,7 @@
           },
           {
             "result": {
-              "duration": 23999600,
+              "duration": 25999400,
               "status": "passed"
             },
             "line": 7,
@@ -1258,7 +1258,7 @@
           },
           {
             "result": {
-              "duration": 14000300,
+              "duration": 14996800,
               "status": "passed"
             },
             "line": 8,
@@ -1276,7 +1276,7 @@
           },
           {
             "result": {
-              "duration": 10999300,
+              "duration": 11999700,
               "status": "passed"
             },
             "line": 9,
@@ -1305,7 +1305,7 @@
           },
           {
             "result": {
-              "duration": 53004500,
+              "duration": 52001900,
               "status": "passed"
             },
             "line": 11,
@@ -1324,7 +1324,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.232Z",
+        "start_timestamp": "2024-12-26T15:15:05.556Z",
         "line": 26,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -1334,7 +1334,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15999900,
+              "duration": 15002000,
               "status": "passed"
             },
             "line": 6,
@@ -1346,7 +1346,7 @@
           },
           {
             "result": {
-              "duration": 22000100,
+              "duration": 27000100,
               "status": "passed"
             },
             "line": 7,
@@ -1358,7 +1358,7 @@
           },
           {
             "result": {
-              "duration": 15003600,
+              "duration": 15000500,
               "status": "passed"
             },
             "line": 8,
@@ -1376,7 +1376,7 @@
           },
           {
             "result": {
-              "duration": 10993900,
+              "duration": 10998500,
               "status": "passed"
             },
             "line": 9,
@@ -1394,7 +1394,6 @@
           },
           {
             "result": {
-              "duration": 1001700,
               "status": "passed"
             },
             "line": 10,
@@ -1406,7 +1405,7 @@
           },
           {
             "result": {
-              "duration": 43998600,
+              "duration": 53000600,
               "status": "passed"
             },
             "line": 11,
@@ -1425,7 +1424,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.344Z",
+        "start_timestamp": "2024-12-26T15:15:05.681Z",
         "line": 27,
         "name": "Testing for valid New Credentials",
         "description": "",
@@ -1435,7 +1434,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14999600,
+              "duration": 14000300,
               "status": "passed"
             },
             "line": 6,
@@ -1447,7 +1446,7 @@
           },
           {
             "result": {
-              "duration": 26000800,
+              "duration": 26000300,
               "status": "passed"
             },
             "line": 7,
@@ -1459,7 +1458,7 @@
           },
           {
             "result": {
-              "duration": 13998000,
+              "duration": 12996700,
               "status": "passed"
             },
             "line": 8,
@@ -1477,7 +1476,7 @@
           },
           {
             "result": {
-              "duration": 11001400,
+              "duration": 10001000,
               "status": "passed"
             },
             "line": 9,
@@ -1506,7 +1505,7 @@
           },
           {
             "result": {
-              "duration": 47005300,
+              "duration": 50999900,
               "status": "passed"
             },
             "line": 11,
@@ -1544,7 +1543,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15000700,
+              "duration": 18003700,
               "status": "passed"
             },
             "line": 5,
@@ -1556,7 +1555,7 @@
           },
           {
             "result": {
-              "duration": 14995100,
+              "duration": 15996900,
               "status": "passed"
             },
             "line": 6,
@@ -1569,7 +1568,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.461Z",
+        "start_timestamp": "2024-12-26T15:15:05.799Z",
         "line": 16,
         "name": "Testing for current Valid Credentials",
         "description": "",
@@ -1579,7 +1578,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12000800,
+              "duration": 14000900,
               "status": "passed"
             },
             "line": 9,
@@ -1597,7 +1596,7 @@
           },
           {
             "result": {
-              "duration": 9999000,
+              "duration": 11999100,
               "status": "passed"
             },
             "line": 10,
@@ -1615,7 +1614,6 @@
           },
           {
             "result": {
-              "duration": 1001300,
               "status": "passed"
             },
             "line": 11,
@@ -1627,7 +1625,7 @@
           },
           {
             "result": {
-              "duration": 33001100,
+              "duration": 34003200,
               "status": "passed"
             },
             "line": 12,
@@ -1654,7 +1652,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20000000,
+              "duration": 23997100,
               "status": "passed"
             },
             "line": 5,
@@ -1666,7 +1664,7 @@
           },
           {
             "result": {
-              "duration": 18997600,
+              "duration": 18000900,
               "status": "passed"
             },
             "line": 6,
@@ -1679,7 +1677,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.556Z",
+        "start_timestamp": "2024-12-26T15:15:05.899Z",
         "line": 17,
         "name": "Testing for current Valid Credentials",
         "description": "",
@@ -1689,7 +1687,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11998800,
+              "duration": 12998800,
               "status": "passed"
             },
             "line": 9,
@@ -1707,7 +1705,7 @@
           },
           {
             "result": {
-              "duration": 12000600,
+              "duration": 9996700,
               "status": "passed"
             },
             "line": 10,
@@ -1736,7 +1734,7 @@
           },
           {
             "result": {
-              "duration": 48000400,
+              "duration": 52004500,
               "status": "passed"
             },
             "line": 12,
@@ -1763,7 +1761,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17006300,
+              "duration": 15998400,
               "status": "passed"
             },
             "line": 5,
@@ -1775,7 +1773,7 @@
           },
           {
             "result": {
-              "duration": 16993900,
+              "duration": 15001700,
               "status": "passed"
             },
             "line": 6,
@@ -1788,7 +1786,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.670Z",
+        "start_timestamp": "2024-12-26T15:15:06.020Z",
         "line": 18,
         "name": "Testing for current Valid Credentials",
         "description": "",
@@ -1798,7 +1796,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12001400,
+              "duration": 13998400,
               "status": "passed"
             },
             "line": 9,
@@ -1816,7 +1814,7 @@
           },
           {
             "result": {
-              "duration": 9998500,
+              "duration": 11001300,
               "status": "passed"
             },
             "line": 10,
@@ -1834,7 +1832,6 @@
           },
           {
             "result": {
-              "duration": 1000500,
               "status": "passed"
             },
             "line": 11,
@@ -1846,7 +1843,7 @@
           },
           {
             "result": {
-              "duration": 51999700,
+              "duration": 54001100,
               "status": "passed"
             },
             "line": 12,
@@ -1873,7 +1870,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14999800,
+              "duration": 15999800,
               "status": "passed"
             },
             "line": 5,
@@ -1885,7 +1882,7 @@
           },
           {
             "result": {
-              "duration": 15001300,
+              "duration": 15002900,
               "status": "passed"
             },
             "line": 6,
@@ -1898,7 +1895,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.781Z",
+        "start_timestamp": "2024-12-26T15:15:06.132Z",
         "line": 19,
         "name": "Testing for current Valid Credentials",
         "description": "",
@@ -1908,7 +1905,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10996100,
+              "duration": 11996600,
               "status": "passed"
             },
             "line": 9,
@@ -1926,7 +1923,7 @@
           },
           {
             "result": {
-              "duration": 9000800,
+              "duration": 10004000,
               "status": "passed"
             },
             "line": 10,
@@ -1955,7 +1952,7 @@
           },
           {
             "result": {
-              "duration": 47999100,
+              "duration": 48999700,
               "status": "passed"
             },
             "line": 12,
@@ -1993,7 +1990,7 @@
         "steps": [
           {
             "result": {
-              "duration": 67001700,
+              "duration": 68000700,
               "status": "passed"
             },
             "line": 5,
@@ -2005,7 +2002,7 @@
           },
           {
             "result": {
-              "duration": 254999000,
+              "duration": 265002400,
               "status": "passed"
             },
             "line": 6,
@@ -2018,7 +2015,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:37.884Z",
+        "start_timestamp": "2024-12-26T15:15:06.237Z",
         "line": 16,
         "name": "Testing restrictions on types of images the user can upload",
         "description": "",
@@ -2028,7 +2025,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19000900,
+              "duration": 17999600,
               "status": "passed"
             },
             "line": 9,
@@ -2046,7 +2043,7 @@
           },
           {
             "result": {
-              "duration": 8000200,
+              "duration": 6997600,
               "status": "passed"
             },
             "line": 10,
@@ -2075,7 +2072,7 @@
           },
           {
             "result": {
-              "duration": 306051500,
+              "duration": 291223900,
               "status": "passed"
             },
             "line": 12,
@@ -2102,7 +2099,7 @@
         "steps": [
           {
             "result": {
-              "duration": 85998900,
+              "duration": 69998100,
               "status": "passed"
             },
             "line": 5,
@@ -2114,7 +2111,7 @@
           },
           {
             "result": {
-              "duration": 256000000,
+              "duration": 239022500,
               "status": "passed"
             },
             "line": 6,
@@ -2127,7 +2124,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:38.547Z",
+        "start_timestamp": "2024-12-26T15:15:06.890Z",
         "line": 17,
         "name": "Testing restrictions on types of images the user can upload",
         "description": "",
@@ -2137,7 +2134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 33999300,
+              "duration": 18993300,
               "status": "passed"
             },
             "line": 9,
@@ -2155,7 +2152,7 @@
           },
           {
             "result": {
-              "duration": 10998900,
+              "duration": 7000900,
               "status": "passed"
             },
             "line": 10,
@@ -2185,7 +2182,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(UserStory4Test.java:127)\r\n\tat ✽.The user gets a \"Accepted data\" browser alert(classpath:features/UserStory4.feature:12)\r\n",
-              "duration": 367048100,
+              "duration": 405724400,
               "status": "failed"
             },
             "line": 12,
@@ -2212,7 +2209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 92998300,
+              "duration": 84000500,
               "status": "passed"
             },
             "line": 5,
@@ -2224,7 +2221,7 @@
           },
           {
             "result": {
-              "duration": 287714500,
+              "duration": 229918800,
               "status": "passed"
             },
             "line": 6,
@@ -2237,7 +2234,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:39.306Z",
+        "start_timestamp": "2024-12-26T15:15:07.637Z",
         "line": 18,
         "name": "Testing restrictions on types of images the user can upload",
         "description": "",
@@ -2247,7 +2244,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19993900,
+              "duration": 18999100,
               "status": "passed"
             },
             "line": 9,
@@ -2265,7 +2262,7 @@
           },
           {
             "result": {
-              "duration": 7000700,
+              "duration": 6999300,
               "status": "passed"
             },
             "line": 10,
@@ -2294,8 +2291,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [2e2187bd-e50a-4852-96ff-4c8d8e264027, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:30282, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24288, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30282/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 2e2187bd-e50a-4852-96ff-4c8d8e264027\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(UserStory4Test.java:131)\r\n\tat ✽.The user gets a \"Browser Alert: Invalid photo type\" browser alert(classpath:features/UserStory4.feature:12)\r\n",
-              "duration": 224697800,
+              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [3e4e9542-b988-4d88-9792-9260490bd549, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:34273, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6104, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34273/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 3e4e9542-b988-4d88-9792-9260490bd549\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory4Test.the_user_gets_a_browser_alert(UserStory4Test.java:131)\r\n\tat ✽.The user gets a \"Browser Alert: Invalid photo type\" browser alert(classpath:features/UserStory4.feature:12)\r\n",
+              "duration": 235213700,
               "status": "failed"
             },
             "line": 12,
@@ -2322,7 +2319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73001200,
+              "duration": 87066400,
               "status": "passed"
             },
             "line": 5,
@@ -2334,7 +2331,7 @@
           },
           {
             "result": {
-              "duration": 245054200,
+              "duration": 243179700,
               "status": "passed"
             },
             "line": 6,
@@ -2347,7 +2344,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:39.946Z",
+        "start_timestamp": "2024-12-26T15:15:08.218Z",
         "line": 27,
         "name": "Testing to make sure the requirements for unique names with certain restrictions",
         "description": "",
@@ -2357,7 +2354,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18998900,
+              "duration": 17001400,
               "status": "passed"
             },
             "line": 21,
@@ -2386,7 +2383,7 @@
           },
           {
             "result": {
-              "duration": 315013300,
+              "duration": 318611900,
               "status": "passed"
             },
             "line": 23,
@@ -2413,7 +2410,7 @@
         "steps": [
           {
             "result": {
-              "duration": 71001100,
+              "duration": 75999700,
               "status": "passed"
             },
             "line": 5,
@@ -2425,7 +2422,7 @@
           },
           {
             "result": {
-              "duration": 240752300,
+              "duration": 238628900,
               "status": "passed"
             },
             "line": 6,
@@ -2438,7 +2435,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:40.601Z",
+        "start_timestamp": "2024-12-26T15:15:08.889Z",
         "line": 28,
         "name": "Testing to make sure the requirements for unique names with certain restrictions",
         "description": "",
@@ -2448,7 +2445,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18998100,
+              "duration": 15999000,
               "status": "passed"
             },
             "line": 21,
@@ -2466,6 +2463,7 @@
           },
           {
             "result": {
+              "duration": 999300,
               "status": "passed"
             },
             "line": 22,
@@ -2477,7 +2475,7 @@
           },
           {
             "result": {
-              "duration": 47299600,
+              "duration": 47999300,
               "status": "passed"
             },
             "line": 23,
@@ -2504,7 +2502,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75001600,
+              "duration": 76000800,
               "status": "passed"
             },
             "line": 5,
@@ -2516,7 +2514,7 @@
           },
           {
             "result": {
-              "duration": 246055800,
+              "duration": 242590000,
               "status": "passed"
             },
             "line": 6,
@@ -2529,7 +2527,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:40.982Z",
+        "start_timestamp": "2024-12-26T15:15:09.272Z",
         "line": 29,
         "name": "Testing to make sure the requirements for unique names with certain restrictions",
         "description": "",
@@ -2539,7 +2537,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15998300,
+              "duration": 16996100,
               "status": "passed"
             },
             "line": 21,
@@ -2568,7 +2566,7 @@
           },
           {
             "result": {
-              "duration": 45086500,
+              "duration": 42001300,
               "status": "passed"
             },
             "line": 23,
@@ -2595,7 +2593,7 @@
         "steps": [
           {
             "result": {
-              "duration": 70002300,
+              "duration": 75003200,
               "status": "passed"
             },
             "line": 5,
@@ -2607,7 +2605,7 @@
           },
           {
             "result": {
-              "duration": 239421500,
+              "duration": 245049600,
               "status": "passed"
             },
             "line": 6,
@@ -2620,7 +2618,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:41.371Z",
+        "start_timestamp": "2024-12-26T15:15:09.653Z",
         "line": 30,
         "name": "Testing to make sure the requirements for unique names with certain restrictions",
         "description": "",
@@ -2630,15 +2628,15 @@
         "steps": [
           {
             "result": {
-              "duration": 21997700,
+              "duration": 22995100,
               "status": "passed"
             },
             "line": 21,
-            "name": "The user enters a \"WhySoManyOptionsJustChooseOne\"",
+            "name": "The user enters a \"WhyAreSoManyOptionsJustChooseOne\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"WhySoManyOptionsJustChooseOne\"",
+                  "val": "\"WhyAreSoManyOptionsJustChooseOne\"",
                   "offset": 18
                 }
               ],
@@ -2659,7 +2657,7 @@
           },
           {
             "result": {
-              "duration": 210035500,
+              "duration": 44000500,
               "status": "passed"
             },
             "line": 23,
@@ -2686,7 +2684,7 @@
         "steps": [
           {
             "result": {
-              "duration": 75001500,
+              "duration": 76001900,
               "status": "passed"
             },
             "line": 5,
@@ -2698,7 +2696,7 @@
           },
           {
             "result": {
-              "duration": 235507000,
+              "duration": 238890300,
               "status": "passed"
             },
             "line": 6,
@@ -2711,7 +2709,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:41.916Z",
+        "start_timestamp": "2024-12-26T15:15:10.042Z",
         "line": 40,
         "name": "Testing valid moon names and orbits",
         "description": "",
@@ -2721,7 +2719,7 @@
         "steps": [
           {
             "result": {
-              "duration": 244720900,
+              "duration": 246467200,
               "status": "passed"
             },
             "line": 33,
@@ -2739,7 +2737,7 @@
           },
           {
             "result": {
-              "duration": 8998500,
+              "duration": 9998100,
               "status": "passed"
             },
             "line": 34,
@@ -2768,7 +2766,7 @@
           },
           {
             "result": {
-              "duration": 400876300,
+              "duration": 394200300,
               "status": "passed"
             },
             "line": 36,
@@ -2795,7 +2793,7 @@
         "steps": [
           {
             "result": {
-              "duration": 70002000,
+              "duration": 72001700,
               "status": "passed"
             },
             "line": 5,
@@ -2807,7 +2805,7 @@
           },
           {
             "result": {
-              "duration": 237897300,
+              "duration": 234293000,
               "status": "passed"
             },
             "line": 6,
@@ -2820,7 +2818,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:42.885Z",
+        "start_timestamp": "2024-12-26T15:15:11.009Z",
         "line": 41,
         "name": "Testing valid moon names and orbits",
         "description": "",
@@ -2830,7 +2828,7 @@
         "steps": [
           {
             "result": {
-              "duration": 229555000,
+              "duration": 233787500,
               "status": "passed"
             },
             "line": 33,
@@ -2848,7 +2846,7 @@
           },
           {
             "result": {
-              "duration": 23000500,
+              "duration": 9996300,
               "status": "passed"
             },
             "line": 34,
@@ -2877,7 +2875,7 @@
           },
           {
             "result": {
-              "duration": 51997200,
+              "duration": 45999600,
               "status": "passed"
             },
             "line": 36,
@@ -2904,7 +2902,7 @@
         "steps": [
           {
             "result": {
-              "duration": 83999600,
+              "duration": 76000500,
               "status": "passed"
             },
             "line": 5,
@@ -2916,7 +2914,7 @@
           },
           {
             "result": {
-              "duration": 249582900,
+              "duration": 240761500,
               "status": "passed"
             },
             "line": 6,
@@ -2929,7 +2927,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:43.502Z",
+        "start_timestamp": "2024-12-26T15:15:11.610Z",
         "line": 42,
         "name": "Testing valid moon names and orbits",
         "description": "",
@@ -2939,7 +2937,7 @@
         "steps": [
           {
             "result": {
-              "duration": 266519600,
+              "duration": 250926200,
               "status": "passed"
             },
             "line": 33,
@@ -2957,7 +2955,7 @@
           },
           {
             "result": {
-              "duration": 9998500,
+              "duration": 9003000,
               "status": "passed"
             },
             "line": 34,
@@ -2986,8 +2984,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [2e2187bd-e50a-4852-96ff-4c8d8e264027, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:30282, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24288, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30282/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 2e2187bd-e50a-4852-96ff-4c8d8e264027\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory4Test.the_user_should_get(UserStory4Test.java:95)\r\n\tat ✽.The user should get \"Invalid name\"(classpath:features/UserStory4.feature:36)\r\n",
-              "duration": 217085900,
+              "error_message": "org.openqa.selenium.NoAlertPresentException: Build info: version: \u00274.23.0\u0027, revision: \u00274df0a231af\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.25\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [3e4e9542-b988-4d88-9792-9260490bd549, getAlertText {}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0.3, moz:accessibilityChecks: false, moz:buildID: 20241209150345, moz:debuggerAddress: 127.0.0.1:34273, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6104, moz:profile: C:\\Users\\William\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:34273/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 3e4e9542-b988-4d88-9792-9260490bd549\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)\r\n\tat com.revature.steps.UserStory4Test.the_user_should_get(UserStory4Test.java:95)\r\n\tat ✽.The user should get \"Invalid name\"(classpath:features/UserStory4.feature:36)\r\n",
+              "duration": 211996400,
               "status": "failed"
             },
             "line": 36,
@@ -3025,7 +3023,7 @@
         "steps": [
           {
             "result": {
-              "duration": 82995900,
+              "duration": 82999200,
               "status": "passed"
             },
             "line": 5,
@@ -3037,7 +3035,6 @@
           },
           {
             "result": {
-              "duration": 1000300,
               "status": "passed"
             },
             "line": 6,
@@ -3050,7 +3047,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:44.334Z",
+        "start_timestamp": "2024-12-26T15:15:12.402Z",
         "line": 15,
         "name": "Testing the user\u0027s ability to only remove something they have control over",
         "description": "",
@@ -3060,7 +3057,7 @@
         "steps": [
           {
             "result": {
-              "duration": 259164800,
+              "duration": 272632900,
               "status": "passed"
             },
             "line": 9,
@@ -3089,7 +3086,7 @@
           },
           {
             "result": {
-              "duration": 345411700,
+              "duration": 321786000,
               "status": "passed"
             },
             "line": 11,
@@ -3116,7 +3113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74999800,
+              "duration": 65996700,
               "status": "passed"
             },
             "line": 5,
@@ -3140,7 +3137,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:45.027Z",
+        "start_timestamp": "2024-12-26T15:15:13.083Z",
         "line": 16,
         "name": "Testing the user\u0027s ability to only remove something they have control over",
         "description": "",
@@ -3150,7 +3147,7 @@
         "steps": [
           {
             "result": {
-              "duration": 251497200,
+              "duration": 262236600,
               "status": "passed"
             },
             "line": 9,
@@ -3168,7 +3165,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 10,
@@ -3180,7 +3176,7 @@
           },
           {
             "result": {
-              "duration": 49000300,
+              "duration": 50049600,
               "status": "passed"
             },
             "line": 11,
@@ -3207,7 +3203,7 @@
         "steps": [
           {
             "result": {
-              "duration": 68996500,
+              "duration": 69002200,
               "status": "passed"
             },
             "line": 5,
@@ -3231,7 +3227,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:45.405Z",
+        "start_timestamp": "2024-12-26T15:15:13.464Z",
         "line": 24,
         "name": "Testing the user\u0027s ability to delete a moon",
         "description": "",
@@ -3241,7 +3237,7 @@
         "steps": [
           {
             "result": {
-              "duration": 47997500,
+              "duration": 48997900,
               "status": "passed"
             },
             "line": 19,
@@ -3270,7 +3266,7 @@
           },
           {
             "result": {
-              "duration": 339233200,
+              "duration": 303116100,
               "status": "passed"
             },
             "line": 21,
@@ -3297,7 +3293,7 @@
         "steps": [
           {
             "result": {
-              "duration": 68000000,
+              "duration": 71001500,
               "status": "passed"
             },
             "line": 5,
@@ -3321,7 +3317,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:45.866Z",
+        "start_timestamp": "2024-12-26T15:15:13.888Z",
         "line": 25,
         "name": "Testing the user\u0027s ability to delete a moon",
         "description": "",
@@ -3331,7 +3327,7 @@
         "steps": [
           {
             "result": {
-              "duration": 50999600,
+              "duration": 46997800,
               "status": "passed"
             },
             "line": 19,
@@ -3360,7 +3356,7 @@
           },
           {
             "result": {
-              "duration": 49999600,
+              "duration": 52000700,
               "status": "passed"
             },
             "line": 21,
@@ -3410,7 +3406,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:46.039Z",
+        "start_timestamp": "2024-12-26T15:15:14.061Z",
         "line": 11,
         "name": "positive test of feature being tested",
         "description": "",
@@ -3463,7 +3459,7 @@
         ]
       },
       {
-        "start_timestamp": "2024-12-26T15:04:46.043Z",
+        "start_timestamp": "2024-12-26T15:15:14.064Z",
         "line": 15,
         "name": "negative test of feature being tested",
         "description": "",
